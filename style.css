@@ -1,7 +1,6 @@
 body{
-    display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-    grid-template-rows: 10vh, 20vh, 7vh, 10vh, 20vh, 33vh;
+    display: flex;
+    flex-direction: column;
     background-image: url(./img/thialand\ flagg.webp);
 }
 
@@ -18,9 +17,22 @@ border-radius: 30px;
     max-height: 30px;
 }
 .header {
-    background-color: #8b0000;
     color: white;
     text-align: center;
     padding: 20px 0;
     font-size: 2em;
+}
+
+main{
+    margin-left: 200px;
+    background-color: #B22222;
+    width: fit-content;
+border-radius: 10px;
+    
+}
+footer {
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
 }
